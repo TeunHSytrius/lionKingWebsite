@@ -7,15 +7,31 @@
 .testBorder {
     border: 2px solid red;
 }
-/*Navigation*/
-.card-grid {
-    display: grid;
-    grid-template-columns:  auto auto auto;
-    padding-top: 20%;
-    grid-gap: 2%;
-    justify-content: center;
-}
-.itemCard {
-    width: 50%;
+
+/*Header*/
+header {
+    background-image: url(../../images/banner2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
+header h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5em;
+}
+/*Navigation*/
+#mainIndex {
+    padding-top: 12em;
+    padding-bottom: 5em;
+}
+.card-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2em;
+    padding: 2em;
+}
+.itemCard {
+  text-align: center;
+}
+
